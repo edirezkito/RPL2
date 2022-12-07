@@ -9,7 +9,7 @@ import java.util.List;
  * @author Moxieee
  */
 public interface TokoBungaDao {
-    public void save(TokoBunga tokobunga);
+    public String save(TokoBunga tokobunga);
     public void update(TokoBunga tokobunga);
     public void delete(TokoBunga tokobunga);
     //public TokoBunga get(String kd_bunga);
